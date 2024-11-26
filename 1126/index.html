@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=""en">
+
+<head>
+    <meta charset=""UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3>關閉按鈕</h3>
+    <button type="button" class="btn-close"></button>
+<button type="button" class="btn-close" disabled></button>
+<h3>(spinners)</h3>
+<div class="spinner-border">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger">
+    <span class="visually-hidden">Loading...</span>
+    </div>
+    delivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<div class="container mt-5">
+    <h1 class="text-center">七言律詩展示</h1>
+    
+    <!-- 標籤頁 -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="poem1-tab" data-bs-toggle="tab" href="#poem1" role="tab" aria-controls="poem1" aria-selected="true">靜夜思</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="poem2-tab" data-bs-toggle="tab" href="#poem2" role="tab" aria-controls="poem2" aria-selected="false">登鹳雀樓</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="poem3-tab" data-bs-toggle="tab" href="#poem3" role="tab" aria-controls="poem3" aria-selected="false">春望</a>
+        </li>
+    </ul>
+    
+    <!-- 標籤內容區域 -->
+    <div class="tab-content mt-3" id="myTabContent">
+        <!-- 錦瑟 -->
+        <div class="tab-pane fade show active" id="poem1" role="tabpanel" aria-labelledby="poem1-tab">
+            <h5>錦瑟</h5>
+            <p>錦瑟無端五十弦，一弦一柱思華年。<br>
+莊生曉夢迷蝴蝶，望帝春心托杜鵑。<br>
+滄海月明珠有淚，藍田日暖玉生煙。<br>
+此情可待成追憶，只是當時已惘然。
+               </p>
+        </div>
+        
+        <!-- 無題 -->
+        <div class="tab-pane fade" id="poem2" role="tabpanel" aria-labelledby="poem2-tab">
+            <h5>無題</h5>
+            <p>相見時難別亦難，東風無力百花殘。<br>
+春蠶到死絲方盡，蠟炬成灰淚始乾。<br>
+曉鏡但愁雲鬢改，夜吟應覺月光寒。<br>
+蓬萊此去無多路，青鳥殷勤為探看。</p>
+        </div>
+        
+        <!-- 登高 -->
+        <div class="tab-pane fade" id="poem3" role="tabpanel" aria-labelledby="poem3-tab">
+            <h5>登高</h5>
+            <p>風急天高猿嘯哀，渚清沙白鳥飛迴。<br>
+無邊落木蕭蕭下，不盡長江滾滾來。<br>
+萬里悲秋常作客，百年多病獨登臺。<br>
+艱難苦恨繁霜鬢，潦倒新停濁酒杯。</p>
+        </div>
+    </div>
+</div>
+
+<!-- 引入 Bootstrap 的 JS 和 Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
