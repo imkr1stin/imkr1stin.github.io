@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七言律詩展開與摺疊</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">七言律詩</h1>
+
+    <!-- 錦瑟 -->
+    <div class="card">
+        <div class="card-header" id="heading1">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    錦瑟
+                </button>
+            </h2>
+        </div>
+        <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#poemAccordion">
+            <div class="card-body">
+                <p>錦瑟無端五十弦，一弦一柱思華年。</p>
+                <p>莊生曉夢迷蝴蝶，望帝春心托杜鵑。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 無題 -->
+    <div class="card">
+        <div class="card-header" id="heading2">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    無題
+                </button>
+            </h2>
+        </div>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#poemAccordion">
+            <div class="card-body">
+                <p>昨夜星辰昨夜風，畫樓西畔桂堂東。</p>
+                <p>身無彩鳳雙飛翼，心有靈犀一點通。</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登高 -->
+    <div class="card">
+        <div class="card-header" id="heading3">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    登高
+                </button>
+            </h2>
+        </div>
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#poemAccordion">
+            <div class="card-body">
+                <p>無邊落木蕭蕭下，不盡長江滾滾來。</p>
+                <p>萬里悲秋常作客，百年多病獨登台。</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 引入Bootstrap JS和Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
